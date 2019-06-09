@@ -12,6 +12,7 @@
 
 header {
   width: 100%;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -30,7 +31,7 @@ header .headline{
 .nav-list-item {
   list-style: none;
   display: inline-block;
-  margin: 20px 0;
+  margin: 0 20px;
 }
 
 .main {
@@ -41,7 +42,7 @@ header .headline{
 .color1 {
   width: 200px;
   height: 200px;
-  background-color: #e6ffe9;
+  background-color: #E6FFE9;
   float: left;
 }
 
