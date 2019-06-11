@@ -12,6 +12,7 @@
 main {
   width: 960px;
   margin: 50px auto;
+  height: auto;
 }
 
 .box {
@@ -58,4 +59,17 @@ main {
 
 .title {
   margin:15px 0 5px;
+}
+
+
+@media screen and (max-width:768px) {
+  main {
+    width: 90%;
+  }
+
+  .box {
+    width: 90%;
+    margin-bottom: 20px;
+    float: none;
+  }
 }
